@@ -70,3 +70,12 @@ output =(
 (3, 7), (4, 7), (5, 7), (5, 6), (6, 6), (7, 6), (8, 6), (9, 6), (9, 7), (9, 8), (9, 9)], 
 'RRRDDDRRRRDDLDDDDRRR')
 ```
+
+# Time Complexity of Solution
+
+- The time complexity of the solution implemented is:
+
+  - $O(V * log{}{V})$
+
+- V can be said to be each vertex (cell/matrix of the graph). This is because insertion and removal of elements into
+the priority queue (min heap) takes log V time.
