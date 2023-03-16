@@ -54,3 +54,13 @@ moves.
 
 - The distances matrix is used so that a neighbor is not added to the priority queue if the distance
 to reach it is higher than
+
+
+For example, the solution to the above path is the following path:
+
+```js
+output =(
+[(0, 0), (0, 1), (0, 2), (0, 3), (1, 3), (2, 3), (3, 3), (3, 4), (3, 5), (3, 6), 
+(3, 7), (4, 7), (5, 7), (5, 6), (6, 6), (7, 6), (8, 6), (9, 6), (9, 7), (9, 8), (9, 9)], 
+'RRRDDDRRRRDDLDDDDRRR')
+```
