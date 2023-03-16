@@ -42,6 +42,14 @@ current distance (what the queue will be sorted by), the second being the curren
 being a list of the path of edges, and the fourth being a string with the current moves to reach
 the cell position so far, e.g ‐ “RDRD”.
 
+```python
+    # create list/array to be used as the underlying data structure of the min-heap priority queue     
+    pathway_priority_queue = []          
+    
+    # push tuple of the start distance, source cell, path of edges, and move_string to priority queue
+    heapq.heappush(pathway_priority_queue, (0, Source, path, move_string))    
+```
+
 - The algorithm can then use a while loop to run while the heap is not a length of zero, and use
 BFS to explore the puzzle until it reaches the destination cell. Once there, the algorithm will
 return the shortest path as a list of edges and the move set as a string.
