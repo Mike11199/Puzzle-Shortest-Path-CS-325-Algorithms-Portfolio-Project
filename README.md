@@ -33,8 +33,8 @@
 
 - An algorithm to solve the problem would involve using a priority queue implemented using a
 min heap, and a distances matrix equal in size to the original puzzle. The algorithm would first
-push the source onto the heap, then explore all valid neighbors by pushing them to the priority
-queue. 
+push the source onto the heap/priority queue, then explore all valid neighbors by pushing them to the priority
+queue as well. 
 
 ![image](https://user-images.githubusercontent.com/91037796/225496958-e6eff3cf-fee1-4bc6-a863-4391af3fde24.png)
 
