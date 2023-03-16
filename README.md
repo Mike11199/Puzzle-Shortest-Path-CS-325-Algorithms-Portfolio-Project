@@ -56,7 +56,7 @@ moves.
 to reach it is higher than
 
 
-For example, the solution to the above path is the following path:
+- For example, the solution to the above path is the following path:
 
 ```js
 output =(
